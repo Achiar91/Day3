@@ -1,10 +1,12 @@
 #topImage {
+    width: 100%;
   position: relative;
   text-align: center;
   color: white;
-  margin-bottom: 0;
+  margin-bottom: 50px;
 }
 h1 {
+    font-size:15px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -20,12 +22,6 @@ html {
   );
   color: grey;
 }
-
-body {
-  display: block;
-  width: 50%;
-  padding: 10px;
-}
 input,
 label,
 button {
@@ -36,15 +32,14 @@ p,
   display: inline;
 }
 #form {
+    border-radius: 25px;
   align-content: center;
   margin-bottom: 100px;
-  padding: 100px;
+  padding: 50px;
   background-color: white;
 }
 #content {
   width: 400px;
-  height: 100px;
-  padding: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -61,4 +56,3 @@ button {
   margin: 4px 2px;
   cursor: pointer;
 }
-
