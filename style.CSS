@@ -1,7 +1,64 @@
+#topImage {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+}
 h1 {
-    color:white;
-    background-image:url(https://c4.wallpaperflare.com/wallpaper/198/387/757/mountains-4k-desktop-background-hd-wallpaper-preview.jpg)
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-html{
-    background-color:#43b3b8;
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(
+    90deg,
+    #020024 0%,
+    #090979 35%,
+    #00d4ff 100%
+  );
+  color: grey;
 }
+
+body {
+  display: block;
+  width: 50%;
+  padding: 10px;
+}
+input,
+label,
+button {
+  display: block;
+}
+p,
+#checkbox {
+  display: inline;
+}
+#form {
+  align-content: center;
+  margin-bottom: 100px;
+  padding: 100px;
+  background-color: white;
+}
+#content {
+  width: 400px;
+  height: 100px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -170px 0 0 -170px;
+}
+button {
+  font-size: 20px;
+  border-radius: 25px;
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 16px 50px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
